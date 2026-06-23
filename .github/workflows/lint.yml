@@ -25,4 +25,4 @@ jobs:
           python -m pip install ruff
 
       - name: Run Ruff
-        run: ruff check --output-format=github
+        run: ruff check --target-version=py313 --output-format=github
